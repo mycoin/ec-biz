@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]>         <html class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]>         <html class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en"><!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1 /">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="renderer" content="webkit|ie-stand|ie-comp" />
+    <title>Alibaba, Inc.</title>
+
+    <base href="/" target="_blank" />
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="bookmark" href="favicon.ico"/>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link href="public/vendor/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="public/vendor/fontawesome/css/font-awesome.css" rel="stylesheet" />
+    
+    <link href="public/css/global.css" rel="stylesheet" />
+    <link href="public/css/theme.css" rel="stylesheet" />
+
+    <script type="text/javascript">
+    var GLOBAL_CONTEXT = '/';
+    </script>
+    <!--[if lt IE 7]>
+        
+    <![endif]-->
+</head>
+<body>
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+    <div ui-view class="cl-viewport">
+        <div class="loading-container">
+            <div class="loader"></div>
+            <div class="error"></div>
+        </div>
+    </div>
+    
+    <script src="public/vendor/requirejs/require.js" data-main="public/main-dist"></script>
+</body>
+</html>

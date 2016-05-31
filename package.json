@@ -1,0 +1,25 @@
+{
+  "name": "ec-biz",
+  "version": "0.1.2",
+  "description": "广告投放系统",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mycoin/ec-biz"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "start": "grunt server"
+  },
+  "license": "MIT License",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-connect": "^0.11.2",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-requirejs": "~0.4.4",
+    "grunt-contrib-watch": "^0.6.1",
+    "less": "^2.5.1",
+    "load-grunt-tasks": "^3.2.0",
+    "time-grunt": "^1.2.1"
+  }
+}
