@@ -87,6 +87,7 @@ module.exports = function(grunt) {
     });
 
     grunt.registerTask('server', ['connect:server', 'watch']);
+    grunt.registerTask('build', ['requirejs:compile']);
     grunt.registerTask('test', ['jshint']);
     grunt.registerTask('default', function() {
         grunt.log.subhead('Please use one of the following commands:');
@@ -97,9 +98,4 @@ module.exports = function(grunt) {
 
         grunt.log.writeln('\n\nsee all tasks `grunt --verbose`');
     });
-
-    grunt.registerTask('template', function() {
-
-    });
-
 };
